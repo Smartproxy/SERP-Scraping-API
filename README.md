@@ -1,10 +1,6 @@
 
 # SERP Scraping API
 
-
-
-With our SERP Scraping API, you can scrape all popular search engines. Most notably and in depth, Google, but also Baidu, Bing, and Yandex.
-
 ## List of contents
 - [Introduction](#introduction)
 - [Authentication](#authentication)
