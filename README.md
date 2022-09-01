@@ -477,8 +477,97 @@ Target by supplying your query to the Yandex search bar.
 | `parse` | `boolean` | 'true' will return parsed output in JSON format. Leave blank for HTML – not all data sources can be parsed. |
 | `google_nfpr` | `boolean` | Auto-correction.|
 | `google_results_language	` | `string` | Shows results in a particular language. All of the supported languages are listed [here](#languages).|
+| `google_tbm	` | `string` | This parameter lets you filter Google Search results for specific types of content (news, apps, videos...). |
+| `google_tbs` | `string` | This parameter contains parameters, like limiting/sorting results by date. |
+| `google_safe_search` | `string` | Used to hide explicit content from the results. |
+| `headless` | `string` | Enable JavaScript rendering. Supported: ```html```, ```png``` |
 
+## Targets
 
+### List of supported targets for the 'target' parameter
+```
+google_search
+google_hotels
+google_travel_hotels
+google_shopping_search
+google_shopping_product
+google_shopping_pricing
+google
+google_images
+google_suggest
+google_ads
+baidu
+baidu_search
+bing
+bing_search
+yandex
+yandex_search
+aliexpress
+aliexpress_product
+amazon
+amazon_product
+amazon_pricing
+amazon_reviews
+amazon_questions
+amazon_search
+idealo
+idealo_search
+idealo_product
+wayfair
+wayfair_search
+universal
+```
+
+## Languages
+
+| ISO 639-1 Code | Language     |
+| :-------- | :------- |
+| `af` |	`Afrikaans` |
+| `ar` |	`Arabic` |
+| `hy` |	`Armenian` |
+| `be` |	`Belarussian` |
+| `bg` |	`Bulgarian` |
+| `ca` |	`Catalan` |
+| `zh-CN` |	`Chinese - Simplified` |
+| `zh-TW` |	`Chinese - Traditional` |
+| `hr` | 	`Croatian` |
+| `cs` |	`Czech` |
+| `da` |	`Danish` |
+| `nl` |	`Dutch` |
+| `en` |	`English` |
+| `eo` |	`Esperanto` |
+| `et` |	`Estonian` |
+| `tl` |	`Filipino` |
+| `fi` |	`Finnish` |
+| `fr` |	`French` |
+| `de` |	`German` |
+| `el` |	`Greek` |
+| `ie` |	`Hebrew` |
+| `hi` |	`Hindi` |
+| `hu` |	`Hungarian` |
+| `is` |	`Icelandic` |
+| `id` |	`Indonesian` |
+| `it` |	`Italian` |
+| `ja` |	`Japanese` |
+| `ko` |	`Korean` |
+| `lv` |	`Latvian` |
+| `lt` |	`Lithuanian` |
+| `no` |	`Norwegian` |
+| `fa` |	`Persian` |
+| `pl` |	`Polish` |
+| `pt` |	`Portuguese` |
+| `ro` |	`Romanian` |
+| `ru` |	`Russian` |
+| `sr` |	`Serbian` |
+| `sk` |	`Slovak` |
+| `sl` |	`Slovenian` |
+| `es` |	`Spanish` |
+| `sw` |	`Swahili` |
+| `sv` |	`Swedish` |
+| `th` |	`Thai` |
+| `tr` |	`Turkish` |
+| `uk` |	`Ukrainian` |
+| `vi` |	`Vietnamese` |
 
 ## License
 
