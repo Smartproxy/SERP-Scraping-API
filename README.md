@@ -498,20 +498,6 @@ bing
 bing_search
 yandex
 yandex_search
-aliexpress
-aliexpress_product
-amazon
-amazon_product
-amazon_pricing
-amazon_reviews
-amazon_questions
-amazon_search
-idealo
-idealo_search
-idealo_product
-wayfair
-wayfair_search
-universal
 ```
 
 ## Languages
