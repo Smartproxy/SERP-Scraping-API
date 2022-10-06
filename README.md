@@ -123,6 +123,9 @@ Returns hotel search results from Google Travel service in HTML.
 | :-------- | :------- | :------------------------- |
 | `query` | `string` |  Google Search query |
 | `target` | `url` | Scraping target |
+| `stars` | `integer` | Star rating, 1-5 stars |
+| `guests` | `integer` | Guest count |
+| `date_range` | `string` | Y-m-d,Y-m-d |
 
 ### Examples
 
@@ -476,6 +479,9 @@ Target by supplying your query to the Yandex search bar.
 | `google_tbm	` | `string` | This parameter lets you filter Google Search results for specific types of content (news, apps, videos...). |
 | `google_tbs` | `string` | This parameter contains parameters, like limiting/sorting results by date. |
 | `google_safe_search` | `string` | Used to hide explicit content from the results. |
+| `stars` | `integer` | 1-5 stars, used with ```google_travel_hotels``` target |
+| `guests` | `integer` | Used with ```google_travel_hotels``` target |
+| `date_range` | `string` | Y-m-d,Y-m-d used with ```google_travel_hotels``` target |
 | `headless` | `string` | Enable JavaScript rendering. Supported: ```html```, ```png``` |
 
 ## Targets
