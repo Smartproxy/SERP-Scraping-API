@@ -11,7 +11,7 @@
 - [Parameters](#parameters)
 - [Targets](#targets)
 - [Languages](#languages)
-- [Response Codes](#responsecodes)
+- [Response Codes](#response-codes)
 - [License](#license)
 
 ## Introduction
