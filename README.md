@@ -12,6 +12,7 @@
 - [Targets](#targets)
 - [Languages](#languages)
 - [Response Codes](#response-codes)
+- [Postman Collection](#postman-collection)
 - [License](#license)
 
 ## Introduction
@@ -587,6 +588,10 @@ yandex_search
 | **12007** - Unknown | We could not determine whether the data was parsed correctly. |
 | **12008** - Error | Failed to parse all the data. |
 | **12009** - Error | Target not found. Make sure the parameters you passed are correct and supported. |
+
+## Postman Collection
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/cfd9d51d373209a9de98?action=collection%2Fimport)
 
 ## License
 
