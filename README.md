@@ -594,7 +594,7 @@ yandex_search
 
 ## Postman Collection
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/cfd9d51d373209a9de98?action=collection%2Fimport)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/23304112-1d93adb3-88f5-4dd5-ae14-22a52b99c6f9?action=collection%2Ffork&collection-url=entityId%3D23304112-1d93adb3-88f5-4dd5-ae14-22a52b99c6f9%26entityType%3Dcollection%26workspaceId%3D52705bab-433c-4fbf-afce-ccbfc97430fe)
 
 
 ## License
