@@ -503,6 +503,7 @@ google
 google_images
 google_suggest
 google_ads
+google_trends_explore
 baidu
 baidu_search
 bing
