@@ -1,27 +1,23 @@
-const request = require('request');
+const response = await fetch(
+    'https://scrape.smartproxy.com/v1/tasks', {
+        method: 'POST',
+        body: {
+            target: 'google_search',
+            query: 'Adidas',
+            parse: true,
+            domain: 'com',
+            page_from: 1,
+            num_pages: 10,
+            locale: 'en-us',
+            geo: 'Detroit,Maine,United States',
+            device_type: 'desktop',
+            google_results_language: 'en'
+        },
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'Basic AUTH'
+        },
+    }
+).catch(error => console.log(error));
 
-const username = 'YOUR_USERNAME';
-const password = 'YOUR_PASSWORD';
-
-const options = {
-  method: 'POST',
-  url: 'https://scrape.smartproxy.com/v1/tasks',
-  headers: {
-    'Content-Type': 'application/json',
-    'Authorization': 'Basic ' + Buffer.from(username + ':' + password).toString('base64')
-  },
-  body: JSON.stringify({
-    target: 'google_search',
-    query: 'history',
-    parse: true,
-    locale: 'en-GB',
-    google_results_language: 'en',
-    geo: 'London,England,United Kingdom'
-  })
-};
-
-request(options, function (error, response, body) {
-  if (error) throw new Error(error);
-
-  console.log(body);
-});
+console.log(response)
