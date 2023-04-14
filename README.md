@@ -1,7 +1,7 @@
 
 # SERP Scraping API
 
-[<img src="https://i.ibb.co/qFJN8HD/SERP.png">](https://dashboard.smartproxy.com/register?utm_source=Github&utm_medium=banner&utm_campaign=Serp-scraping)
+[<img src="https://i.ibb.co/DYFkrgz/SERP-1.png">](https://dashboard.smartproxy.com/register?utm_source=Github&utm_medium=banner&utm_campaign=Serp-scraping)
 
 
 ## List of contents
