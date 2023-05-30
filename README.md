@@ -229,6 +229,27 @@ Returns Google keyword suggestions based on the supplied query.
 | PHP                 | [php/googlesuggest.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googlesuggest.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googlesuggest.php > googlesuggest.php ``` |
 | Node.js                 | [nodejs/googlesuggest.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googlesuggest.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googlesuggest.js > googlesuggest.js ``` |
 
+### Target: ```google_trends_explore``` (not parseable,already returns structured data)
+
+Required parameters: ```query```
+
+Retrieve Google Trends results. This target returns structured data so there is no need to use the parse parameter.
+
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `query` | `string` |  Google Search query |
+| `geo` | `string` |  Geo-targeting location |
+| `target` | `url` | Scraping target |
+
+### Examples
+
+| Programming Language | Example location         | Download |
+| -------------------- | ------------------------ | -------- |
+| Python                  | [python/googletrendsexplore.py](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/python/googletrendsexplore.py) |``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/python/googletrendsexplore.py > googletrendsexplore.py ``` |
+| PHP                 | [php/googletrendsexplore.php](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/php/googletrendsexplore.php)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/php/googletrendsexplore.php > googletrendsexplore.php ``` |
+| Node.js                 | [nodejs/googletrendsexplore.js](https://github.com/Smartproxy/SERP-Scraping-API/blob/main/nodejs/googletrendsexplore.js)   | ``` curl https://raw.githubusercontent.com/Smartproxy/SERP-Scraping-API/main/nodejs/googletrendsexplore.js > googletrendsexplore.js ``` |
+
 ### Target: ```google_ads``` (parseable)
 Required parameters: ```query```
 
