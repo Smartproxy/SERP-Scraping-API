@@ -20,7 +20,8 @@
 
 ## Introduction
 
-With our SERP Scraping API, you can scrape all popular search engines. Most notably and in depth, Google, but also Baidu, Bing, and Yandex.
+With [our SERP Scraping API](https://smartproxy.com/scraping/serp
+), you can scrape all popular search engines. Most notably and in depth, Google, but also Baidu, Bing, and Yandex.
 
 ## Authentication
 
