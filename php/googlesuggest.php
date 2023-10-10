@@ -3,7 +3,7 @@ require_once('vendor/autoload.php');
 
 $client = new \GuzzleHttp\Client();
 
-$response = $client->request('POST', 'https://scrape.smartproxy.com/v1/tasks', [
+$response = $client->request('POST', 'https://scraper-api.smartproxy.com/v2/scrape', [
   'body' => '{"target":"google_suggest","query":"world","parse":false}',
   'headers' => [
     'Content-Type' => 'application/json',
