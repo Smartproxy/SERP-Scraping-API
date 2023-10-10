@@ -41,10 +41,10 @@ For available parameters, you can refer to [Parameters](#parameters).
 
 ### Google Search
 
-API Link: https://scrape.smartproxy.com/v1/tasks
+API Link: https://scraper-api.smartproxy.com/v2/scrape
 
 ```http
-  POST /tasks
+  POST /scrape
 ```
 
 ### Target: ```google_search``` (parseable)
