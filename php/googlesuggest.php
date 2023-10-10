@@ -8,7 +8,7 @@ $response = $client->request('POST', 'https://scraper-api.smartproxy.com/v2/scra
   'headers' => [
     'Content-Type' => 'application/json',
     'accept' => 'application/json',
-    'authorization' => 'Basic U1B1c2VybmFtZTpTUHBhc3N3b3Jk',
+    'authorization' => 'Basic AUTH',
   ],
 ]);
 
