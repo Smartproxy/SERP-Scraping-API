@@ -2,7 +2,7 @@
 # SERP Scraping API
 
 <p align="center">
-    <a href="https://dashboard.smartproxy.com/register?page=serp-scraping-api%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_serp_scraper" ><img src="https://imgur.com/a/UhSt3bZ"></a>
+    <a href="https://dashboard.smartproxy.com/register?page=serp-scraping-api%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_serp_scraper" ><img src="[https://imgur.com/a85LTPD](https://i.imgur.com/a85LTPD.png)"></a>
 </p>
 
 ## List of contents
