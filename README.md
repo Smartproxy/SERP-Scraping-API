@@ -1,8 +1,9 @@
 
 # SERP Scraping API
 
-[<img src="https://i.ibb.co/DYFkrgz/SERP-1.png">](https://dashboard.smartproxy.com/register?utm_source=Github&utm_medium=banner&utm_campaign=Serp-scraping)
-
+<p align="center">
+    <a href="https://dashboard.smartproxy.com/register?page=serp-scraping-api%2Fpricing&utm_source=socialorganic&utm_medium=social&utm_campaign=github_serp_scraper"><img src="https://imgur.com/a/UhSt3bZ"></a>
+</p>
 
 ## List of contents
 - [Introduction](#introduction)
